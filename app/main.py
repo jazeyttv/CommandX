@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Cali Roleplay Network Python app is running! (another test change)'
+    return 'Cali Roleplay Network Python app is running! (notification format test)'
 
 if __name__ == '__main__':
     app.run(debug=True)
